@@ -1,0 +1,17 @@
+{
+  "name": "news-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy + Gemini pentru aplicația personală de știri",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "rss-parser": "^3.13.0"
+  }
+}
