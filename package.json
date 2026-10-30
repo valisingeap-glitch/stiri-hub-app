@@ -1,17 +1,17 @@
 {
-  "name": "news-hub-backend",
+  "name": "stiri-hub",
   "version": "1.0.0",
-  "description": "Backend proxy + Gemini pentru aplicația personală de știri",
-  "main": "server.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "expo start",
+    "android": "expo start --android"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "rss-parser": "^3.13.0"
-  }
+    "expo": "~51.0.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "@react-native-async-storage/async-storage": "1.23.1"
+  },
+  "private": true
 }

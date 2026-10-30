@@ -1,12 +1,19 @@
 {
   "expo": {
     "name": "Știri Hub",
-    "slug": "stiri-hub-app",
+    "slug": "stiri-hub",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0d6efd"
+    },
     "android": {
-      "package": "com.sfinxro.stirihub"
+      "package": "com.valentin.stirihub",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {}
     }
   }
 }
