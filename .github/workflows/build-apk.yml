@@ -25,5 +25,8 @@ jobs:
       - name: Instaleaza dependentele
         run: npm install
 
+      - name: Inregistreaza proiectul
+        run: eas init --account sfinxro --non-interactive --force
+
       - name: Compileaza APK-ul
         run: eas build --platform android --profile preview --non-interactive --wait
